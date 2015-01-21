@@ -29,6 +29,8 @@ require.config({
     "cm/addon/hint/anyword-hint": "../bower_components/codemirror/addon/hint/anyword-hint",
     "cm/addon/display/placeholder": "../bower_components/codemirror/addon/display/placeholder",
     "cm/addon/runmode/runmode": "../bower_components/codemirror/addon/runmode/runmode",
+    "cm/keymap/emacs" : "../bower_components/codemirror/keymap/emacs",
+
 					/* Our own Prolog mode */
     "cm/mode/prolog/prolog": "codemirror/mode/prolog/prolog",
     "cm/mode/prolog/prolog_keys": "codemirror/mode/prolog/prolog_keys",
@@ -40,8 +42,7 @@ require.config({
 
     "cm/addon/hint/templates-hint": "codemirror/addon/hint/templates-hint",
     "cm/addon/hint/show-context-info": "codemirror/addon/hint/show-context-info",
-    "cm/mode/prolog/prolog-template-hint": "codemirror/mode/prolog/prolog-template-hint",
-    "cm/keymap/emacs" : "codemirror/keymap/emacs"
+    "cm/mode/prolog/prolog-template-hint": "codemirror/mode/prolog/prolog-template-hint"
   },
   shim:
   { bootstrap:
